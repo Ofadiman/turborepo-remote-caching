@@ -30,7 +30,11 @@ yarn-error.log*
 .env.production.local
 
 # turbo
-.turbo
+/**/.turbo
+!/.turbo
 
 # IDE
 .idea/
+
+# Build files
+dist/

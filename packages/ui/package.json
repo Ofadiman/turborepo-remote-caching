@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint src",
+    "build": "tsc",
     "prettier": "prettier --check src"
   },
   "devDependencies": {
